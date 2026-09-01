@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grok to Codex Sessions"
+  short_description: "Safely migrate Grok sessions into Codex threads"
+  default_prompt: "Use $grok-to-codex-sessions to inspect and migrate my local Grok sessions into Codex without calling a model."

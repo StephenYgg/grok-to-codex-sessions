@@ -1,0 +1,15 @@
+{
+  "name": "grok-to-codex-sessions",
+  "version": "0.1.0",
+  "description": "A Codex Skill and local CLI for migrating Grok sessions into native Codex threads.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check scripts/grok-to-codex-sessions.mjs && node --check scripts/lib/conversation.mjs && node --check scripts/lib/storage.mjs && node --test",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "license": "MIT"
+}
